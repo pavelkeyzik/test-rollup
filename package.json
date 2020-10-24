@@ -1,0 +1,16 @@
+{
+  "name": "learn-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup",
+    "build": "rm -rf dist && rollup -c"
+  },
+  "keywords": [],
+  "author": "Pavel Keizik",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.32.1"
+  }
+}
