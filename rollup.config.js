@@ -5,8 +5,8 @@ export default {
     app2: 'src/app2/index.js'
   },
   output: {
-    dir: 'dist',
-    entryFileNames: 'build-[name].js',
+    dir: 'lib',
+    entryFileNames: '[name].js',
     format: 'es'
   }
 }
